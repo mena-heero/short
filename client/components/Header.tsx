@@ -126,13 +126,13 @@ const Header: FC = () => {
           >
             <Li>
               <ALink
-                href="//github.com/thedevs-network/kutt"
+                href="//flagedu.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="GitHub"
+                title="Flagedu"
                 fontSize={[14, 16]}
               >
-                GitHub
+                Flagedu
               </ALink>
             </Li>
             <Li>

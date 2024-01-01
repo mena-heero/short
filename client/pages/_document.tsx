@@ -59,7 +59,7 @@ class AppDocument extends Document<Props> {
           />
           <meta
             property="og:description"
-            content="Free & Open Source Modern URL Shortener"
+            content="Flagedu Modern URL Shortener"
           />
           <meta
             name="twitter:url"
@@ -68,7 +68,7 @@ class AppDocument extends Document<Props> {
           <meta name="twitter:title" content={publicRuntimeConfig.SITE_NAME} />
           <meta
             name="twitter:description"
-            content="Free & Open Source Modern URL Shortener"
+            content="Flagedu Modern URL Shortener"
           />
           <meta
             name="twitter:image"

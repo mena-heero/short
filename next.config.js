@@ -2,8 +2,8 @@ const { parsed: localEnv } = require("dotenv").config();
 
 module.exports = {
   publicRuntimeConfig: {
-    CONTACT_EMAIL: localEnv && localEnv.CONTACT_EMAIL,
-    SITE_NAME: localEnv && localEnv.SITE_NAME,
+    CONTACT_EMAIL: localEnv && localEnv.CONTACT_EMAIL || "contact@flagedu.com",
+    SITE_NAME: localEnv && localEnv.SITE_NAME || "Flagedu",
     DEFAULT_DOMAIN: localEnv && localEnv.DEFAULT_DOMAIN,
     RECAPTCHA_SITE_KEY: localEnv && localEnv.RECAPTCHA_SITE_KEY,
     GOOGLE_ANALYTICS: localEnv && localEnv.GOOGLE_ANALYTICS,
