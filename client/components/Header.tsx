@@ -136,9 +136,20 @@ const Header: FC = () => {
               </ALink>
             </Li>
             <Li>
+              <ALink
+                href="//affiliate.flagedu.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Flagedu"
+                fontSize={[14, 16]}
+              >
+                Affiliate 
+              </ALink>
+            </Li>
+            <Li>
               <Link href="/report">
                 <ALink href="/report" title="Report abuse" fontSize={[14, 16]}>
-                  Report
+                  Report 
                 </ALink>
               </Link>
             </Li>
