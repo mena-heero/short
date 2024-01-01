@@ -2,7 +2,7 @@ version: "3"
 
 services:
   kutt:
-    image: menaheero/kutt:h2
+    image: menaheero/loshort:dev1
     depends_on:
       - postgres
       - redis
