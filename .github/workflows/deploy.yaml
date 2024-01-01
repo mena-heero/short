@@ -24,7 +24,7 @@ jobs:
 
       - name: Development Build Script
         run: |
-          docker build -f .  -t menaheero/loshort:dev1
+          docker build .  -t menaheero/loshort:dev1
           docker tag menaheero/loshort:dev1 docker.io/menaheero/loshort:dev1
           docker push docker.io/menaheero/loshort:dev1
 
@@ -45,7 +45,7 @@ jobs:
 
       - name: Production Build Script
         run: |
-            docker build -f .  -t menaheero/loshort:dev1
+            docker build .  -t menaheero/loshort:dev1
             docker tag menaheero/loshort:dev1 docker.io/menaheero/loshort:dev1
             docker push docker.io/menaheero/loshort:dev1
 
