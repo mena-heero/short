@@ -1,0 +1,3 @@
+psql -U user -d kutt
+SELECT verification_token FROM users WHERE email='contact@flagedu.com';
+/verify/---------
