@@ -130,9 +130,9 @@ const Shortener = () => {
 
   const title = !link && (
     <H1 fontSize={[25, 27, 32]} light>
-      Kutt your links{" "}
+      Cut your links{" "}
       <Span style={{ borderBottom: "2px dotted #999" }} light>
-        shorter
+         Free By Flagedu
       </Span>
       .
     </H1>

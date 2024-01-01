@@ -110,7 +110,7 @@ const Header: FC = () => {
               if (window.location.pathname !== "/") Router.push("/");
             }}
           >
-            <img src="/images/logo.svg" alt="" />
+            <img src="/images/logo.png" alt="" />
             {publicRuntimeConfig.SITE_NAME}
           </a>
         </LogoImage>

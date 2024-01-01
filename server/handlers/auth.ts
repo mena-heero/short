@@ -31,7 +31,7 @@ const authenticate = (
       if (user && isStrict && !user.verified) {
         throw new CustomError(
           "Your email address is not verified. " +
-            "Click on signup to get the verification link again.",
+            "Please contact Flagedu Support contact@flagedu.com",
           400
         );
       }

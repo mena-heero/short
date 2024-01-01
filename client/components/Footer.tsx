@@ -28,7 +28,7 @@ const Footer: FC = () => {
       <Text fontSize={[12, 13]} py={2}>
         Made with love by{" "}
         <ALink href="https://github.com/mena-heero" title="Mena Heero">
-          The Devs
+        Mena Heero
         </ALink>
         .{" | "}
         <ALink
